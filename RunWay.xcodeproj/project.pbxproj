@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		5A0924CB1FB38BE400803DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0924CA1FB38BE400803DE4 /* AppDelegate.swift */; };
-		5A0924CD1FB38BE400803DE4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0924CC1FB38BE400803DE4 /* FirstViewController.swift */; };
-		5A0924CF1FB38BE400803DE4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0924CE1FB38BE400803DE4 /* SecondViewController.swift */; };
+		5A0924CD1FB38BE400803DE4 /* BegainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0924CC1FB38BE400803DE4 /* BegainVC.swift */; };
+		5A0924CF1FB38BE400803DE4 /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0924CE1FB38BE400803DE4 /* RunLogVC.swift */; };
 		5A0924D21FB38BE400803DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0924D01FB38BE400803DE4 /* Main.storyboard */; };
 		5A0924D41FB38BE400803DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0924D31FB38BE400803DE4 /* Assets.xcassets */; };
 		5A0924D71FB38BE400803DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0924D51FB38BE400803DE4 /* LaunchScreen.storyboard */; };
+		5AC4151D1FB4BBD200F62FF6 /* locationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4151C1FB4BBD200F62FF6 /* locationVC.swift */; };
+		5AEF71731FB583CE00DA61A2 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF71721FB583CE00DA61A2 /* CurrentRunVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A0924C71FB38BE400803DE4 /* RunWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0924CA1FB38BE400803DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A0924CC1FB38BE400803DE4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5A0924CE1FB38BE400803DE4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5A0924CC1FB38BE400803DE4 /* BegainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BegainVC.swift; sourceTree = "<group>"; };
+		5A0924CE1FB38BE400803DE4 /* RunLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogVC.swift; sourceTree = "<group>"; };
 		5A0924D11FB38BE400803DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A0924D31FB38BE400803DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A0924D61FB38BE400803DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A0924D81FB38BE400803DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC4151C1FB4BBD200F62FF6 /* locationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationVC.swift; sourceTree = "<group>"; };
+		5AEF71721FB583CE00DA61A2 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,65 @@
 		5A0924C91FB38BE400803DE4 /* RunWay */ = {
 			isa = PBXGroup;
 			children = (
+				5A0924E31FB38E0400803DE4 /* Resources */,
+				5A0924E21FB38DE900803DE4 /* Utilities */,
+				5A0924E11FB38DDA00803DE4 /* Extenstions */,
+				5A0924E01FB38DC000803DE4 /* Controller */,
+				5A0924DF1FB38DB800803DE4 /* View */,
+				5A0924DE1FB38DA900803DE4 /* Model */,
 				5A0924CA1FB38BE400803DE4 /* AppDelegate.swift */,
-				5A0924CC1FB38BE400803DE4 /* FirstViewController.swift */,
-				5A0924CE1FB38BE400803DE4 /* SecondViewController.swift */,
 				5A0924D01FB38BE400803DE4 /* Main.storyboard */,
 				5A0924D31FB38BE400803DE4 /* Assets.xcassets */,
 				5A0924D51FB38BE400803DE4 /* LaunchScreen.storyboard */,
 				5A0924D81FB38BE400803DE4 /* Info.plist */,
 			);
 			path = RunWay;
+			sourceTree = "<group>";
+		};
+		5A0924DE1FB38DA900803DE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A0924DF1FB38DB800803DE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A0924E01FB38DC000803DE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A0924CE1FB38BE400803DE4 /* RunLogVC.swift */,
+				5A0924CC1FB38BE400803DE4 /* BegainVC.swift */,
+				5AC4151C1FB4BBD200F62FF6 /* locationVC.swift */,
+				5AEF71721FB583CE00DA61A2 /* CurrentRunVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A0924E11FB38DDA00803DE4 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		5A0924E21FB38DE900803DE4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5A0924E31FB38E0400803DE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0924CF1FB38BE400803DE4 /* SecondViewController.swift in Sources */,
+				5AEF71731FB583CE00DA61A2 /* CurrentRunVC.swift in Sources */,
+				5A0924CF1FB38BE400803DE4 /* RunLogVC.swift in Sources */,
+				5AC4151D1FB4BBD200F62FF6 /* locationVC.swift in Sources */,
 				5A0924CB1FB38BE400803DE4 /* AppDelegate.swift in Sources */,
-				5A0924CD1FB38BE400803DE4 /* FirstViewController.swift in Sources */,
+				5A0924CD1FB38BE400803DE4 /* BegainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
